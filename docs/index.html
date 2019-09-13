@@ -31,6 +31,8 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="static/sticky-footer-navbar.css" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
   </head>
   <body class="d-flex flex-column h-100">
     <header>
@@ -44,6 +46,12 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#sections_schedule">Schedule</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#sections_documents">Material</a>
         </li>
         <!--
         <li class="nav-item">
@@ -73,7 +81,7 @@
   </div>
 
   <div class="container">
-    <h2>Workshop schedule</h2>
+    <a id="sections_schedule"><h2>Workshop schedule</h2></a>
 
     <table class="table table-sm">
       <thead>
@@ -123,13 +131,91 @@
       </tbody>
     </table>
 
-    <br/>
 
-    <h2>Presenters</h2>
+    <h2>Study groups</h2>
 
-    <h2>Documents and Slides</h2>
+    <h4>Emerging technologies and detection techniques</h4>
+    <p>
+      Recent advances in using deep-learning technologies introduced challenges for content curators and journalists. Use of deep learning poses a significant threat to democracy since these techniques can be employed to orchestrate misinformation campaigns and platform manipulation using social bots. This study group discusses the impact of these technologies and how research efforts can help to mitigate those malicious efforts.
+    </p>
+
+    <h4>Integrity of elections over the world</h4>
+    <p>
+      Important elections will be held in 2020 for the US, France, UK, Greece, and more. Social media is a valuable platform for disseminating news and fostering public debate. Unfortunately, there has been numerous evidence supporting information operations to manipulate elections, suppressing voters voice, and spread disinformation. Historically candidates' airtime regulated by the election committees, while many-to-many communication nature of social media makes it challenging to regulate. However, legislations for controlling spending on political advertisements are promising steps forward. This study group discusses the current state of the social systems and risks involved in the elections.
+    </p>
+
+    <h4>Ethics and platform responsibilities</h4>
+    <p>
+      In the past two years, most social media platforms shared concerns on platform manipulations and acknowledged their responsibilities for the public. Social media companies' willingness to respond to government requests are important. However, such collaborations can be concerning in certain governments due to censorship and account removals. These platform actions also bring ethical questions. This study group will discuss risks involved due to control power of the platforms and ethical concerns that need further consideration.
+    </p>
+
+    <h4>Media literacy education and pro-active awareness campaigns</h4>
+    <p>
+      In our modern society, media literacy has crucial importance to detect misleading information, censorship, and bias in online content. This study group discusses how to build a curriculum around media literacy and what age groups should benefit from it the most.
+    </p>
+
+    <h4>Brave ideas for the new world</h4>
+    <p>
+      Rapid changes how we use technology requires innovative solutions to the problems. In recent years, blockchain technologies and distributed social media platforms introduced. Although these advancements promise a solution to some of the issues, their adoption rates are also low. This study group discusses, dreams, and bravely speculates about the future of the Internet.
+    </p>
 
     <h2>Recommended readings</h2>
+
+    <ul>
+      <li>Lazer, David MJ, et al. "The science of fake news." Science 359.6380 (2018): 1094-1096.</li>
+      <li>Ferrara, Emilio, et al. "The rise of social bots." Communications of the ACM 59.7 (2016): 96-104.</li>
+      <li>Vosoughi, Soroush, Deb Roy, and Sinan Aral. "The spread of true and false news online." Science 359.6380 (2018): 1146-1151.</li>
+      <li>Shao, Chengcheng, et al. "The spread of low-credibility content by social bots." Nature communications 9.1 (2018): 4787.</li>
+      <li>Aral, Sinan, and Dean Eckles. "Protecting elections from social media manipulation." Science 365.6456 (2019): 858-861.</li>
+      <li>Bessi, Alessandro, and Emilio Ferrara. "Social bots distort the 2016 US Presidential election online discussion." First Monday 21.11-7 (2016).</li>
+      <li><span class="text-danger">More literature will be added.</span></li>
+    </ul>
+
+    <a id="sections_documents"><h2>Documents and Slides</h2></a>
+
+    <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="images/thumbnail-schedule.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Schedule for the workshop <span class="text-warning">(can change until the workshop)</span></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="docs/hlf-workshop-plan.pdf" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary"><ion-icon name="download"></ion-icon> Download</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">Presentation for the overview and introductions. <span class="text-danger">Will be shared during workshop</span></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary"><ion-icon name="easel"></ion-icon> View</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div class="card-body">
+              <p class="card-text">Survey on misinformation and social bots. <span class="text-danger">Draft version will be available during workshop</span></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="#"><button type="button" class="btn btn-sm btn-outline-secondary"><ion-icon name="list-box"></ion-icon> View</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
 
   </div>
 </main>
